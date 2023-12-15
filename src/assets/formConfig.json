@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "label": "First Name",
+    "name": "firstName",
+    "validation": "required"
+  },
+  {
+    "id": 2,
+    "type": "text",
+    "label": "Last Name",
+    "name": "lastName",
+    "validation": "required"
+  },
+  {
+    "id": 3,
+    "type": "tel",
+    "label": "Your phone Number",
+    "name": "phone",
+    "validation": "required|numeric"
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "label": "Email Address",
+    "name": "emailAddress",
+    "validation": "required|email"
+  },
+  {
+    "id": 5,
+    "type": "dropdown",
+    "label": "Country",
+    "name": "country",
+    "options": [
+      { "label": "USA", "value": "USA" },
+      { "label": "Canada", "value": "Canada" },
+      { "label": "Mexico", "value": "Mexico" },
+      { "label": "UK", "value": "UK" }
+    ],
+    "validation": "required"
+  },
+  {
+    "id": 6,
+    "type": "radio",
+    "label": "Gender",
+    "name": "gender",
+    "options": [
+      { "label": "Male", "value": "male" },
+      { "label": "Female", "value": "female" },
+      { "label": "other", "value": "other" }
+    ],
+    "validation": "required"
+  },
+  {
+    "id": 7,
+    "type": "datepicker",
+    "label": "Date of Birth",
+    "name": "dob",
+    "validation": "required"
+  },
+  {
+    "id": 8,
+    "type": "checkbox",
+    "label": "Interests",
+    "name": "interests",
+    "options": [
+      { "label": "Reading", "value": "reading" },
+      { "label": "Sports", "value": "sports" },
+      { "label": "Music", "value": "music" },
+      { "label": "Art", "value": "art" },
+      { "label": "Video Games", "value": "video games" }
+    ],
+    "validation": "required"
+  },
+  {
+    "id": 9,
+    "type": "radio",
+    "label": "How many hours per week do you spend at a desk?",
+    "name": "deskHours",
+    "options": [
+      { "label": "1-10", "value": "1-10" },
+      { "label": "11-20", "value": "11-20" },
+      { "label": "21-40", "value": "21-40" },
+      { "label": "40+", "value": "40+" }
+    ],
+    "validation": "required"
+  },
+  {
+    "id": 10,
+    "type": "radio",
+    "label": "When working at your desk, you find yourself leaning forward in your chair or reaching to be closer to your keyboard/mouse?",
+    "name": "agreeOrDisagree",
+    "options": [
+      { "label": "Agree", "value": "agree" },
+      { "label": "Neutral", "value": "neutral" },
+      { "label": "Disagree", "value": "disagree" }
+    ],
+    "validation": "required"
+  },
+  {
+    "id": 11,
+    "type": "radio",
+    "label": "Do you use a wireless or wired keyboard and mouse?",
+    "name": "wiredOrWireless",
+    "options": [
+      { "label": "Wired", "value": "wired" },
+      { "label": "Wireless", "value": "wireless" }
+    ],
+    "validation": "required"
+  }
+]
